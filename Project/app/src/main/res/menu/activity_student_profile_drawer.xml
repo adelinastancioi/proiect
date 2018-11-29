@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My Actitivities" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_menu_calendar"
+            android:title="Activities Calendar" />
+
+        <item
+            android:id="@+id/nav_feedbacks"
+            android:icon="@drawable/ic_menu_help"
+            android:title=" Feedbacks" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log Out"
+            android:icon="@drawable/ic_menu_logout"
+
+            />
+
+    </group>
+
+    <!--<item >-->
+        <!--<menu>-->
+            <!--&lt;!&ndash;<item&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/nav_share"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:icon="@drawable/ic_menu_share"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:title="Share" />&ndash;&gt;-->
+            <!--&lt;!&ndash;<item&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/nav_send"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:icon="@drawable/ic_menu_send"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:title="Send" />&ndash;&gt;-->
+
+
+
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

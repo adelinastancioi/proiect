@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myTests"
+            android:icon="@drawable/mytests"
+            android:title="My Tests" />
+        <item
+            android:id="@+id/nav_questionsLibrary"
+            android:icon="@drawable/questionsportfolio"
+            android:title="Question Library" />
+        <item
+            android:id="@+id/nav_studentsList"
+            android:icon="@drawable/studentslist"
+            android:title="Students List" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/reports"
+            android:title="Reports"
+            />
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="Help &amp; Feedback"
+            android:icon="@drawable/feedback"
+            />
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Log Out"
+                android:icon="@drawable/logout"
+                />
+
+        </menu>
+    </item>
+
+</menu>

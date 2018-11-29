@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/grad_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectSignActivity">
+
+    <TextView
+        android:id="@+id/registerTextView"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/registerString"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:text="Register as a Teacher"
+        android:onClick="navigateToSignUp"/>
+
+    <Button
+        android:id="@+id/registerButtonStud"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:text="Register as a Student"
+        android:onClick="navigateToSignUpStudent"/>
+
+
+    <TextView
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/loginString"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="45dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/loginButton"
+        android:onClick="navigateToLogInActivity"/>
+
+
+
+
+
+
+</LinearLayout>
